@@ -5,6 +5,7 @@ class CreateCourses < ActiveRecord::Migration[5.2]
       t.text :description
       t.decimal :cost
       t.integer :user_id
+      
       t.timestamps
     end
     add_index :courses, :user_id
