@@ -69,10 +69,21 @@ source 'https://rails-assets.org' do
   gem 'rails-assets-tether', '>= 1.3.3'
 end
 
+# Use SimpleForm
 gem 'simple_form'
+
+# Use Devise gem for user authentication
 gem 'devise'
+
+# Use carrierwave for image uploading
 gem 'carrierwave', '>= 2.0.0.rc', '< 3.0'
+
+# Use figaro & fog gems for Heroku/carrierwave
 gem "figaro"
 gem 'fog-aws'
+
+# Use MiniMagick for image resizing
 gem "mini_magick"
+
+# Use carrierwave-aws to handle video uploading large file size issues
 gem 'carrierwave-aws'
