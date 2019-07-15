@@ -87,3 +87,6 @@ gem "mini_magick"
 
 # Use carrierwave-aws to handle video uploading large file size issues
 gem 'carrierwave-aws'
+
+# Use stripe to complete payments
+gem 'stripe'
