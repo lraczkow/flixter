@@ -6,7 +6,10 @@ Rails.application.routes.draw do
   end
   resources :lessons, only: [:show]
   namespace :instructor do
+    # these two are for the drag-and-drop AJAX POST request routes
     resources :lessons, only: [:update]
+    resources :sections, only: [:update]
+    
     resources :sections, only: [] do
       resources :lessons, only: [:new, :create]
     end
