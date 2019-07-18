@@ -93,3 +93,6 @@ gem 'stripe'
 
 # Use ranked-model for ordering/re-ordering lessons & sections
 gem 'ranked-model'
+
+#jQuery for JavaScript
+gem 'jquery-ui-rails'
