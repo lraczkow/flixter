@@ -96,3 +96,6 @@ gem 'ranked-model'
 
 #jQuery for JavaScript
 gem 'jquery-ui-rails'
+
+# Use for font-awesome fonts and stylesheets
+gem "font-awesome-rails"
