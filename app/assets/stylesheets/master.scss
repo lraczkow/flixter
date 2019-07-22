@@ -44,6 +44,7 @@
 
 h1, h2, h3, h4, h5, h6, .navbar {
   margin: 0;
+  color: #07889B;
 }
 
 .btn {
@@ -129,15 +130,22 @@ ul .header .fa {
   font-size: 20px;
 }
 
+.lesson {
+  background-color: #262B2F;
+} 
+
 .lessons li {
-  background: black;
-  color: white;
+  background-color: #262B2F;
+  color: #EEAA7B;
   margin: 10px;
   font-family: 'Exo', sans-serif;
   font-weight: 100;
   padding: 8px;
   font-size: 15px;
-  margin: 20px;
+}
+
+.lesson a b {
+    color: #EEAA7B;
 }
 
 .lessons li b {
@@ -147,4 +155,55 @@ ul .header .fa {
 
 .lessons li p {
   margin: 0;
+}
+
+.btn-primary {
+  background-color: #E37222;
+  border-color: white;
+}
+
+.btn-primary:hover {
+  background-color: #EEAA7B;
+  border-color: white;
+}
+
+.link-to-text-color {
+ color: #66B9BF;
+}
+
+.link-to-text-color:hover {
+  color: #EEAA7B;
+}
+
+.btn-danger {
+  background-color: #E37222;
+  border-color: white;
+}
+
+.badge-info {
+  background-color: #66B9BF;
+}
+
+a {
+  color: #66B9BF;
+}
+
+a:hover {
+  color: #EEAA7B;
+}
+
+.btn-warning {
+  background-color: #66B9BF;
+  color: white;
+  border-color: white;
+}
+
+img {
+  vertical-align: middle;
+  border-style: solid;
+  border-width: thin;
+  border-color: gray;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  margin-left: 100px;
 }
