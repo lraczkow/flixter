@@ -33,13 +33,13 @@
 .frosty h1 {
   font-family: 'Exo', sans-serif;
   font-weight: 100;
-  text-shadow: rgba(0, 0, 0, 0.95) 1px 1px;
+  text-shadow: #ffffff 2px 2px;
 }
 
 .frosty h2 {
   font-family: 'Exo', sans-serif;
   font-weight: 200;
-  text-shadow: rgba(0, 0, 0, 0.95) 1px 1px;
+  text-shadow: #ffffff 2px 2px;
 }
 
 h1, h2, h3, h4, h5, h6, .navbar {
@@ -155,6 +155,11 @@ ul .header .fa {
 
 .lessons li p {
   margin: 0;
+}
+
+.btn-success {
+  background-color: #66B9BF;
+  border-color: white;
 }
 
 .btn-primary {
