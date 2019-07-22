@@ -176,7 +176,7 @@ GEM
       mime-types-data (~> 3.2015)
     mime-types-data (3.2019.0331)
     mimemagic (0.3.3)
-    mini_magick (4.9.3)
+    mini_magick (4.9.5)
     mini_mime (1.0.1)
     mini_portile2 (2.4.0)
     minitest (5.11.3)
@@ -318,7 +318,7 @@ DEPENDENCIES
   jquery-rails
   jquery-ui-rails
   listen (>= 3.0.5, < 3.2)
-  mini_magick
+  mini_magick (>= 4.9.4)
   pg (>= 0.18, < 2.0)
   popper_js (~> 1.14.5)
   puma (~> 3.11)

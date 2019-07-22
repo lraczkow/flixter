@@ -83,7 +83,7 @@ gem "figaro"
 gem 'fog-aws'
 
 # Use MiniMagick for image resizing
-gem "mini_magick"
+gem "mini_magick", ">= 4.9.4"
 
 # Use carrierwave-aws to handle video uploading large file size issues
 gem 'carrierwave-aws'
